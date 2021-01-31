@@ -1,0 +1,122 @@
+[MAP]
+{
+	description=Speed Ball 10x10 version for 13 players max. Use fusions! By TradeMark.;
+	tidalstrength=30;
+	gravity=40;
+	maxmetal=100;
+	extractorradius=2;
+	maphardness=70;
+	autoshowmetal=1;
+	[ATMOSPHERE]
+	{
+		FogColor=0 0 0;
+		FogStart=0.6;
+		CloudColor=0.85 0.6 0.8;
+		SkyColor=0.2 0.1 0.6;
+		SunColor=0.79 0.4 0;
+		CloudDensity=0.8;
+		MinWind=30;
+		MaxWind=30;
+		Skybox=CorePrime.dds;
+	}
+	[WATER]
+	{
+		WaterSurfaceColor=1 1 1;
+		WaterPlaneColor=0 0 0;
+		WaterBaseColor=0 0 0;
+		WaterAbsorb=0 0 0.37;
+		WaterMinColor=0 0 0;
+		WaterDamage=200;
+		watertexture=black.jpg;
+	}
+	[LIGHT]
+	{
+		SunDir=0.383 0.508 -0.308;
+		GroundAmbiantColor=1 1 1;
+		GroundSunColor=1 1 1;
+		GroundShadowDensity=1.5;
+		UnitAmbiantColor=1 1 1;
+		UnitSunColor=1 1 1;
+		UnitShadowDensity=1.5;
+		SpecularSunColor=1 1 1;
+	}
+	[TERRAINTYPE0]
+	{
+		name=default;
+		hardness=1;
+		tankmovespeed=1.5;
+		kbotmovespeed=1.5;
+		hovermovespeed=1.5;
+		shipmovespeed=1.5;
+	}
+	// Edge spots:
+	[TEAM0]
+	{
+		StartPosX=2560;
+		StartPosZ=4810;
+	}
+	[TEAM1]
+	{
+		StartPosX=2560;
+		StartPosZ=310;
+	}
+	[TEAM2]
+	{
+		StartPosX=4810;
+		StartPosZ=2560;
+	}
+	[TEAM3]
+	{
+		StartPosX=310;
+		StartPosZ=2560;
+	}
+	[TEAM4]
+	{
+		StartPosX=4151;
+		StartPosZ=4151;
+	}
+	[TEAM5]
+	{
+		StartPosX=969;
+		StartPosZ=969;
+	}
+	[TEAM6]
+	{
+		StartPosX=969;
+		StartPosZ=4151;
+	}
+	[TEAM7]
+	{
+		StartPosX=4151;
+		StartPosZ=969;
+	}
+
+	// Middle spots:
+	[TEAM8]
+	{
+		StartPosX=2560;
+		StartPosZ=3570;
+	}
+	[TEAM9]
+	{
+		StartPosX=2560;
+		StartPosZ=1550;
+	}
+	[TEAM10]
+	{
+		StartPosX=3570;
+		StartPosZ=2560;
+	}
+	[TEAM11]
+	{
+		StartPosX=1550;
+		StartPosZ=2560;
+	}
+
+	// Supermiddle spot:
+	[TEAM12]
+	{
+		StartPosX=2560;
+		StartPosZ=2560;
+	}
+}
